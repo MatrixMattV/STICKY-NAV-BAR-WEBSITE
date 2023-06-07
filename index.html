@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Nav Bar</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <img src="./logo.png" alt="" class="logo">
+            <ul id="menu">
+                <li>HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PRODUCT</li>
+                <li>CONTACT</li>
+            </ul>
+        </nav>
+    </div>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium aut autem, hic tenetur iste optio accusamus aliquid repellendus exercitationem nihil libero dolores. Sed, necessitatibus? Iste sapiente sunt rerum soluta assumenda esse, blanditiis nobis voluptatum excepturi amet. Voluptate architecto exercitationem culpa pariatur fugiat impedit atque sunt unde debitis eos sed fugit quasi, dolore numquam accusamus! Libero perspiciatis earum dignissimos quos dolores vel dolor quod error laboriosam, aliquam quam dolore quisquam veritatis ipsa. Quia aperiam porro magnam? Cumque hic architecto consequuntur at similique ex officia impedit quisquam, expedita libero pariatur facilis quod fugit molestias, repellat rerum beatae perferendis ipsum. Quia laborum iste enim optio sed vel, distinctio odit facere, eius a ad esse dolores consectetur dolorem veritatis atque ut quos ducimus nulla sequi tempora officiis consequatur. Vel, voluptatibus nostrum.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium aut autem, hic tenetur iste optio accusamus aliquid repellendus exercitationem nihil libero dolores. Sed, necessitatibus? Iste sapiente sunt rerum soluta assumenda esse, blanditiis nobis voluptatum excepturi amet. Voluptate architecto exercitationem culpa pariatur fugiat impedit atque sunt unde debitis eos sed fugit quasi, dolore numquam accusamus! Libero perspiciatis earum dignissimos quos dolores vel dolor quod error laboriosam, aliquam quam dolore quisquam veritatis ipsa. Quia aperiam porro magnam? Cumque hic architecto consequuntur at similique ex officia impedit quisquam, expedita libero pariatur facilis quod fugit molestias, repellat rerum beatae perferendis ipsum. Quia laborum iste enim optio sed vel, distinctio odit facere, eius a ad esse dolores consectetur dolorem veritatis atque ut quos ducimus nulla sequi tempora officiis consequatur. Vel, voluptatibus nostrum.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium aut autem, hic tenetur iste optio accusamus aliquid repellendus exercitationem nihil libero dolores. Sed, necessitatibus? Iste sapiente sunt rerum soluta assumenda esse, blanditiis nobis voluptatum excepturi amet. Voluptate architecto exercitationem culpa pariatur fugiat impedit atque sunt unde debitis eos sed fugit quasi, dolore numquam accusamus! Libero perspiciatis earum dignissimos quos dolores vel dolor quod error laboriosam, aliquam quam dolore quisquam veritatis ipsa. Quia aperiam porro magnam? Cumque hic architecto consequuntur at similique ex officia impedit quisquam, expedita libero pariatur facilis quod fugit molestias, repellat rerum beatae perferendis ipsum. Quia laborum iste enim optio sed vel, distinctio odit facere, eius a ad esse dolores consectetur dolorem veritatis atque ut quos ducimus nulla sequi tempora officiis consequatur. Vel, voluptatibus nostrum.</p>
+    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus accusantium aut autem, hic tenetur iste optio accusamus aliquid repellendus exercitationem nihil libero dolores. Sed, necessitatibus? Iste sapiente sunt rerum soluta assumenda esse, blanditiis nobis voluptatum excepturi amet. Voluptate architecto exercitationem culpa pariatur fugiat impedit atque sunt unde debitis eos sed fugit quasi, dolore numquam accusamus! Libero perspiciatis earum dignissimos quos dolores vel dolor quod error laboriosam, aliquam quam dolore quisquam veritatis ipsa. Quia aperiam porro magnam? Cumque hic architecto consequuntur at similique ex officia impedit quisquam, expedita libero pariatur facilis quod fugit molestias, repellat rerum beatae perferendis ipsum. Quia laborum iste enim optio sed vel, distinctio odit facere, eius a ad esse dolores consectetur dolorem veritatis atque ut quos ducimus nulla sequi tempora officiis consequatur. Vel, voluptatibus nostrum.</p>
+
+
+    <script>
+        var navbar = document.getElementById("navbar");
+        var menu = document.getElementById("menu");
+
+        window.onscroll = function() {
+            if(window.pageYOffset >= menu.offsetTop) {
+                navbar.classList.add("sticky");
+            }
+            else {
+                navbar.classList.remove("sticky");
+            }
+        }
+
+    </script>
+
+</body>
+</html>
